@@ -1,2 +1,10 @@
 ---
 # handlers file for webserver
+- name: Restart a container
+  docker_container:
+    name: myapplication
+    image: "{{ NexusSrv }}/mavtom:v1"
+    state: started
+    restart: yes
+    ports:
+      - "8080:8080"

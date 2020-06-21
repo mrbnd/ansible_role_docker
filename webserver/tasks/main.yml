@@ -13,3 +13,6 @@
 - name: pull an image
   docker_image:
    name: "{{ NexusSrv }}/mavtom:v1"
+
+  notify:
+    - Restart a container
