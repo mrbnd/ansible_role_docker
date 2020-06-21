@@ -33,7 +33,7 @@
       pip:
         name: docker-py
 
-   - name: pull an image
-     docker_image:
-       name: 84.201.167.62:8082/mavtom:v1
-       source: pull
+    - name: pull an image
+      docker_image:
+        name: 84.201.167.62:8082/mavtom:v1
+        source: pull
