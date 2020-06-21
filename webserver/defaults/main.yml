@@ -1,0 +1,4 @@
+---
+# defaults file for webserver
+src_folder: 52.188.123.237/tmp/boxfuse-sample-java-war-hello/target/hello-1.0
+dest_folder: /var/lib/tomcat8/webapps/hello-1.0/

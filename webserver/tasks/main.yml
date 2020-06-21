@@ -1,0 +1,14 @@
+---
+# tasks file for webserver]
+- name: Ensure packages is present
+  apt: name={{item}} state=present update_cache=yes
+  with_items:
+    - tomcat8
+    - rsync
+
+- name: Synchronization using rsync protocol (pull)
+  synchronize: mode=pull src=rsync://{{ src_folder }} dest={{ dest_folder }}
+  delegate_to: 52.247.109.255 #Адрес сервера web
+
+  notify:
+    - restart tomcat

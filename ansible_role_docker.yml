@@ -1,0 +1,22 @@
+---
+- name: Build server config
+  hosts: web
+  become: yes
+
+  tasks:
+    - name: Ensure python-pip is present
+      apt: name=python-pip state=present update_cache=yes
+
+    - name: Install docker-py
+      pip:
+        name: docker-py
+
+    - name: Copy Dockerfile
+      copy: src=Dockerfile dest=/home/dockerfile/Dockerfile
+
+    - name: Build an image and push it to a private repo
+      docker_image:
+         path: /home/dockerfile/
+         name: 84.201.167.62:8082/mavtom
+         tag: v1
+         push: yes
