@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25ccab6-fb03-46e7-8737-d8352150ddea" name="Default Changelist" comment="" />
+    <list default="true" id="e25ccab6-fb03-46e7-8737-d8352150ddea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ddoz0QhfU4VjdwDMSSBwojCf4D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -17,11 +23,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webserver/files" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\ansible_role_docker\webserver\files" />
       <recent name="C:\Users\Admin\IdeaProjects\ansible_role_docker" />
     </key>
   </component>
@@ -77,5 +84,19 @@
       <updated>1592764589393</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1007" y="308" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592765768156">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="1007" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1592765768156" />
+    <state x="694" y="402" key="Github.ShareDialog" timestamp="1592766216571">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="694" y="402" key="Github.ShareDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592766216571" />
+    <state x="576" y="209" key="Github.UntrackedFilesDialog" timestamp="1592766222727">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="576" y="209" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592766222727" />
   </component>
 </project>
