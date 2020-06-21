@@ -1,14 +1,15 @@
 ---
 # tasks file for webserver]
-- name: Ensure packages is present
+- name: install packages
   apt: name={{item}} state=present update_cache=yes
   with_items:
-    - tomcat8
-    - rsync
+    - docker.io
+    - python-pip
 
-- name: Synchronization using rsync protocol (pull)
-  synchronize: mode=pull src=rsync://{{ src_folder }} dest={{ dest_folder }}
-  delegate_to: 52.247.109.255 #Адрес сервера web
+- name: Install docker-py
+  pip:
+    name: docker-py
 
-  notify:
-    - restart tomcat
+- name: pull an image
+  docker_image:
+   name: {{ NexSrvIp }}:{{ NexSrvIpPrt }}/mavtom:v1

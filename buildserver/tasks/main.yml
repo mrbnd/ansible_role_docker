@@ -3,22 +3,19 @@
 - name: install packages
   apt: name={{item}} state=present update_cache=yes
   with_items:
-    - default-jdk
-    - maven
-    - git
-    - rsync
+    - docker.io
+    - python-pip
 
-- name: Git clone
-  git:
-    repo: 'https://github.com/boxfuse/boxfuse-sample-java-war-hello.git'
-    dest: /tmp/boxfuse-sample-java-war-hello
-    clone: yes
+- name: Install docker-py
+  pip:
+    name: docker-py
 
-- name: Mvn package
-  command: mvn package -f /tmp/boxfuse-sample-java-war-hello
+- name: Copy Dockerfile
+    copy: src=Dockerfile dest={{ dest_folder }}/Dockerfile
 
-- name: Config rsycn
-  copy: src=rsyncd.conf dest=/etc/rsyncd.conf mode=0644
-
-  notify:
-  - restart rsync
+- name: Build an image and push it to a private repo
+  docker_image:
+      path: /home/dockerfile/
+      name: {{ NexSrvIp }}:{{ NexSrvIpPrt }}/mavtom
+      tag: v1
+      push: yes

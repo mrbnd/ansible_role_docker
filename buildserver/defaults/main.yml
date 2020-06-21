@@ -1,3 +1,5 @@
 ---
 # defaults file for buildserver
-
+NexSrvIp: 84.201.167.62
+NexSrvIpPrt: 8082
+dest_folder: /home/dockerfile/
