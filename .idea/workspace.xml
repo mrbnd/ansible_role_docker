@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25ccab6-fb03-46e7-8737-d8352150ddea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/buildserver/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildserver/defaults/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildserver/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildserver/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/defaults/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webserver/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/webserver/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592769634433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1592769821973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592769821973</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1592769989642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592769989642</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1592770043223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592770043223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,10 +154,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="1007" y="308" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1592765768156" />
-    <state x="447" y="85" key="CommitChangelistDialog2" timestamp="1592769633412">
+    <state x="447" y="85" key="CommitChangelistDialog2" timestamp="1592770042158">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="447" y="85" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1592769633412" />
+    <state x="447" y="85" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1592770042158" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1592769818004">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -152,9 +170,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="576" y="209" key="Github.UntrackedFilesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592766222727" />
-    <state x="418" y="231" key="Vcs.Push.Dialog.v2" timestamp="1592769636174">
+    <state x="418" y="231" key="Vcs.Push.Dialog.v2" timestamp="1592770044410">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="418" y="231" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592769636174" />
+    <state x="418" y="231" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1592770044410" />
   </component>
 </project>
